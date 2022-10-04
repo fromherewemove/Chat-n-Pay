@@ -1,0 +1,28 @@
+<form action="" method="POST">
+    {% csrf_token %}
+    <label for="first_name">Enter first name:</label>
+    <br>
+    <input type="text" id="first_name" name="first_name"/>
+    <br>
+    <label for="last_name">Enter last name:</label>
+    <br>
+    <input type="text" id="last_name" name="last_name"/>
+    <br>
+    <label for="email">Enter email:</label>
+    <br>
+    <input type="text" id="email" name="email"/>
+    <br>
+    <label for="dob">Enter date of birth:</label>
+    <br>
+    <input type="date" id="dob" name="dob"/>
+    <br>
+    <label for="bvn">Enter BVN:</label>
+    <br>
+    <input type="text" id="bvn" name="bvn"/>
+    <br>
+    <label for="password">Enter password:</label>
+    <br>
+    <input type="text" id="password" name="password"/>
+    <br>
+    <input type="submit" value="Submit"/>
+</form>
